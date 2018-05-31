@@ -54,6 +54,11 @@ public class Main {
         List<String> list5 = new ArrayList<>(Arrays.asList("ピーマン", "ぴーまん"));
         List<String> list6 = new ArrayList<>(Arrays.asList("とまと", "トマト"));
         List<String> list7 = new ArrayList<>(Arrays.asList("じゃがいも", "ジャガイモ", "じゃが芋"));
+        List<String> list8 = new ArrayList<>(Arrays.asList("ごはん", "ご飯", "お米", "米"));
+        List<String> list9 = new ArrayList<>(Arrays.asList("ささみ", "鶏ささみ"));
+        List<String> list10 = new ArrayList<>(Arrays.asList("豚バラ肉", "豚バラ"));
+        List<String> list11 = new ArrayList<>(Arrays.asList("パスタ"));
+        List<String> list12 = new ArrayList<>(Arrays.asList("うどん"));
         Map<String, List<String>> wordMap = new HashMap<>();
         wordMap.put("卵", list1);
         wordMap.put("きゅうり", list2);
@@ -62,6 +67,12 @@ public class Main {
         wordMap.put("ピーマン", list5);
         wordMap.put("トマト", list6);
         wordMap.put("じゃがいも", list7);
+        wordMap.put("ごはん", list8);
+        wordMap.put("ささみ", list9);
+        wordMap.put("豚バラ肉", list10);
+        wordMap.put("パスタ", list11);
+        wordMap.put("うどん", list12);
+        
 
         // いらない文字や調味料の除去するためのList
         List<String> removeMoji = new ArrayList<>(
@@ -229,6 +240,9 @@ public class Main {
         List<String> list5 = new ArrayList<>(Arrays.asList("ピーマン", "ぴーまん"));
         List<String> list6 = new ArrayList<>(Arrays.asList("とまと", "トマト"));
         List<String> list7 = new ArrayList<>(Arrays.asList("じゃがいも", "ジャガイモ", "じゃが芋"));
+        List<String> list8 = new ArrayList<>(Arrays.asList("ごはん", "ご飯", "お米", "米"));
+        List<String> list9 = new ArrayList<>(Arrays.asList("ささみ", "鶏ささみ"));
+        List<String> list10 = new ArrayList<>(Arrays.asList("豚バラ肉", "豚バラ"));
         Map<String, List<String>> wordMap = new HashMap<>();
         wordMap.put("卵", list1);
         wordMap.put("きゅうり", list2);
@@ -237,6 +251,9 @@ public class Main {
         wordMap.put("ピーマン", list5);
         wordMap.put("トマト", list6);
         wordMap.put("じゃがいも", list7);
+        wordMap.put("ごはん", list8);
+        wordMap.put("ささみ", list9);
+        wordMap.put("豚バラ肉", list10);
 
         // いらない文字や調味料の除去するためのList
         List<String> removeMoji = new ArrayList<>(
